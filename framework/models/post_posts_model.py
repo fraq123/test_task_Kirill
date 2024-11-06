@@ -1,5 +1,7 @@
 from pydantic import BaseModel
 
 
-class PostPostsModel(BaseModel):
-    id: int
+class PostPalindromModel(BaseModel):
+    id: str
+    result: str
+
